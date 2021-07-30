@@ -1,0 +1,34 @@
+/*-----------------hero-start--------------------*/
+
+#hero {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: #000;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero--title{
+
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+
+.hero-description {
+    width: 652px;
+    height: 154px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/*-----------------hero-end--------------------*/
