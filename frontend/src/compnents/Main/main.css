@@ -81,7 +81,7 @@
     -webkit-animation: bev 2s ease-in-out alternate;
     -webkit-animation-delay: 0.2s;
     position: absolute;
-    left: 520px;
+    left: 495px;
 
 }
 
@@ -147,7 +147,7 @@
     position: absolute;
     z-index: 7;
     margin-top: -700px;
-    margin-left: 510px;
+    margin-left: 470px;
     animation: pauk ease-in 2.99s;
 }
 @keyframes pauk {

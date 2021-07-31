@@ -9,7 +9,6 @@ import Card3 from './img/card3.png'
 import Card4 from './img/card4.png'
 import Card6 from './img/card6.png'
 import Card7 from './img/card7.png'
-
 import Backend from "./img/back-end.svg"
 import ModalWindow from "./Modal1";
 import '../media.css'

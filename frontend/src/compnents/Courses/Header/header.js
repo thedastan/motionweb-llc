@@ -15,13 +15,13 @@ const Header = () => {
                             <NavLink to="/">
                                 <img src={Logo} alt="" className="logo"/>
                             </NavLink>
-                            <h1 className="logo-text">motion web llc</h1>
+                            <h1 className="logo-text">motion web </h1>
                         </div>
-                        <div className="icon">
-                            <input placeholder="курстарды издөө "/>
-                            <img src={Search} alt=""/>
-                            <div className="line"/>
-                        </div>
+                        {/*<div className="icon">*/}
+                        {/*    <input placeholder="курстарды издөө "/>*/}
+                        {/*    <img src={Search} alt=""/>*/}
+                        {/*    <div className="line"/>*/}
+                        {/*</div>*/}
                     </div>
                     <div className="lini"/>
                 </div>

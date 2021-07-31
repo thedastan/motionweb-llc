@@ -76,7 +76,7 @@ function ModalWindow2() {
                             <option className="form__el" value="ux/ui+front-end">Front-End + UX/UI Дизайн</option>
                         </select>
 
-                        <button onClick={click} className="modal-btn">Жөнөтүү</button>
+                        <button onClick={ click } className="modal-btn">Жөнөтүү</button>
 
                     </div>
                 </Modal.Body>

@@ -2399,12 +2399,18 @@ input[type="radio"]:checked ~ .bullet {
         font-size: 35px;
     }
 
-    .hero__title p {
+    .hero--description {
         margin-left: -130px;
     }
 }
 /*/////////////////////////////////////////////////////*/
 @media (max-width: 320px) {
+    #catalog {
+        margin-left: 0;
+        padding-left: 8px;
+        width: 100%;
+
+    }
     #header {
         margin-left: -6px;
     }

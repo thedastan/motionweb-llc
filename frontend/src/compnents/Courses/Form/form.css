@@ -1,6 +1,6 @@
 /*FORM*/
 #form {
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
     padding-top: 100px;
     background-size: cover;
 }
@@ -81,7 +81,7 @@
 }
 
 .form__select {
-    background: rgba(0,0,0,0.63);
+    background: rgba(0, 0, 0, 0.63);
     width: 833px;
     height: 55px;
     border: 1px solid #FFFFFF;
@@ -97,3 +97,101 @@
 }
 
 /*FORM*/
+
+
+@media (max-width: 576px) {
+    .form-control {
+        width: 450px;
+    }
+
+    .form__select {
+        width: 450px;
+
+    }
+
+    .form-group option {
+        width: 450px;
+
+    }
+
+    .form__title {
+        font-size: 36px;
+    }
+
+    .form__btn {
+        width: 450px;
+    }
+
+    .form__description {
+        width: 477px;
+    }
+
+}
+@media (max-width: 414px) {
+    .form-control {
+        width: 350px;
+    }
+
+    .form__select {
+        width: 350px;
+
+    }
+
+    .form-group option {
+        width: 350px;
+
+    }
+
+    .form__title {
+        font-size: 30px;
+    }
+
+    .form__btn {
+        width: 350px;
+    }
+
+    .form__description {
+        width: 340px;
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width: 320px) {
+    .form-control {
+        width: 268px;
+    }
+
+    .form__select {
+        width: 268px;
+
+    }
+
+    .form-group option {
+        width: 268px;
+
+    }
+
+    .form__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .form__btn {
+        width: 268px;
+    }
+
+    .form__description {
+        width: 268px;
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 52px;
+    }
+    .form__img {
+        margin-left: -94px;
+    }
+
+
+    .form__box{
+        margin-bottom: 10px;
+    }
+}
