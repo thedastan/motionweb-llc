@@ -518,6 +518,7 @@ input[type="radio"]:checked ~ .bullet {
 }
 
 .title h1 {
+    height: 72px;
     margin-left: 10px;
     width: 239px;
     font-style: normal;

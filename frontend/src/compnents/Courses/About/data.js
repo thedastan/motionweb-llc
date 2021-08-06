@@ -11,6 +11,7 @@ import backEnd from './img/back-end.svg'
 const data = [
     {
         id: Math.random() ,
+
         subtitle: "КУРС",
         imageUrl: WebMaster,
         courseName: "Веб Мастер",
@@ -32,6 +33,8 @@ const data = [
         courseDiscount: "17,000 сом/айына.",
         courseDesc: "12 айга бөлүп төлөө планы",
         schedule: "7/3 -  2 сааттан",
+        courseTime:'6 ай',
+
     },
     {
         id: Math.random() ,
@@ -42,6 +45,8 @@ const data = [
         courseDiscount: "17,000 сом/айына.",
         courseDesc: "12 айга бөлүп төлөө планы",
         schedule: "7/3 -  2 сааттан",
+        courseTime:'6 ай',
+
     },
     {
         id: Math.random() ,
@@ -52,6 +57,8 @@ const data = [
         courseDiscount: "17,000 сом/айына.",
         courseDesc: "12 айга бөлүп төлөө планы",
         schedule: "7/3 -  2 сааттан",
+        courseTime:'6 ай',
+
     },
     {
         id: Math.random() ,
@@ -62,6 +69,8 @@ const data = [
         courseDiscount: "17,000 сом/айына.",
         courseDesc: "12 айга бөлүп төлөө планы",
         schedule: "7/3 -  2 сааттан",
+        courseTime:'6 ай',
+
     },
     {
         id: Math.random() ,
@@ -72,6 +81,8 @@ const data = [
         courseDiscount: "17,000 сом/айына.",
         courseDesc: "12 айга бөлүп төлөө планы",
         schedule: "7/3 -  2 сааттан",
+        courseTime:'6 ай',
+
     },
     {
         id: Math.random() ,
@@ -82,6 +93,8 @@ const data = [
         courseDiscount: "17,000 сом/айына.",
         courseDesc: "12 айга бөлүп төлөө планы",
         schedule: "7/3 -  4 сааттан",
+        courseTime:'6 ай',
+
     },
     {
         id: Math.random(),
@@ -92,6 +105,8 @@ const data = [
         courseDiscount: "17,000 сом/айына.",
         courseDesc: "12 айга бөлүп төлөө планы",
         schedule: "7/3 -  2 сааттан",
+        courseTime:'6 ай',
+
     },
 
 

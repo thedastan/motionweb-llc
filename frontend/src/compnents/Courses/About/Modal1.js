@@ -16,7 +16,7 @@ import Modal2 from "./Modal2";
 import tools from "./tools";
 
 
-function ModalWindow() {
+function ModalWindow({el}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -27,8 +27,6 @@ function ModalWindow() {
             <Button variant="dark" onClick={handleShow}>
                 Тоолук маалымат
             </Button>
-            {tools.map((el) => {
-                    return (
                         <Modal show={show} onHide={handleClose} key={el.id}>
                             <Modal.Header closeButton>
                                 <Modal.Title>{el.courseName}</Modal.Title>
@@ -72,9 +70,7 @@ function ModalWindow() {
                                 <Modal2/>
                             </Modal.Footer>
                         </Modal>
-                    )
-                }
-            )}
+
 
         </div>
     );
