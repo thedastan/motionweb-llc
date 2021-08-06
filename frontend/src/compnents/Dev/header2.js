@@ -1,31 +1,23 @@
 import React from "react";
-import './css/style.css'
-import Img_1 from "./img/img_1.png"
+import './css/dev_style.css'
+import {NavLink} from "react-router-dom";
+import Logo from "../Main/img/logo motion web.png";
 
 const Header2 = () => {
     return (
         <header id="header">
             <div className="row">
                 <nav className="nav-bar">
-                    <div className="header__img">
-                        <a href="/">
-                            <img src={Img_1} className="nav__img" alt=""/>
-                        </a>
+                    <div className="header__menu">
+                        <NavLink to="/">
+                            <img src={Logo} alt="" className="logo"/>
+                        </NavLink>
+                        <h1 className="logo-text">motion web </h1>
                     </div>
                 </nav>
                 <nav className="nav">
                     <div className="roww">
                         <a className="header__title__it2" href="#">Главная </a>
-                        <a className="header__title__it"
-                           href="http://localhost:63342/choose/index_y.html?_ijt=bqmghi4t7srch0lm38lmt0g0vu">Разработка\Сайта</a>
-                        <a className="header__title__it"
-                           href="http://localhost:63342/choose/index_us.html?_ijt=e64ctr1alube54v59mmaicjrs9">Услуги</a>
-                        <a className="header__title__it"
-                           href="http://localhost:63342/choose/index_port.html?_ijt=5linosglllaljqshbu6n583fi9">Портфолио</a>
-                        <a className="header__title__it"
-                           href="http://localhost:63342/choose/index_baza.html?_ijt=5linosglllaljqshbu6n583fi9">База\Знаний</a>
-                        <a className="header__title__it"
-                           href="http://localhost:63342/choose/index_ak.html?_ijt=e64ctr1alube54v59mmaicjrs9">Акции</a>
                     </div>
                     <div className="btn">
                         <button className="modal-btn">

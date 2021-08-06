@@ -1,9 +1,9 @@
 import React from "react";
-import './css/style.css'
+import './css/dev_style.css'
 import 'react-bootstrap'
 const Baz2 = () => {
     return (
-        <div>
+
             <section id="baz">
                 <div className="container">
                     <h1 className="works__title2">Наши работы</h1>
@@ -131,7 +131,7 @@ const Baz2 = () => {
                     </div>
                 </div>
             </section>
-        </div>
+
     )
 }
 

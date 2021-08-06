@@ -1,15 +1,15 @@
 import React from "react";
-import './css/style.css'
+import './css/dev_style.css'
 import Facebook from  "./img/facebook-circular-logo.svg"
 import Youtube from "./img/youtube.png"
 import Vk from "./img/vk-social-logotype.png"
 import Instagram from "./img/instagram.svg"
 import Stat from "./img/STAT.png"
-import 'bootstrap'
+import 'react-bootstrap'
 
 const Hero2 = () => {
     return (
-        <div>
+
             <section id="hero2">
                 <div className="container">
                     <div className="row">
@@ -46,7 +46,7 @@ const Hero2 = () => {
 
                 </div>
             </section>
-        </div>
+
     )
 }
 export default Hero2

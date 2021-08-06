@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-flip-clock-count-down": "^1.0.1",
+    "react-simple-flipclock": "^0.3.1"
+  }
+}

@@ -49,7 +49,6 @@ function ModalWindow2() {
                 <Modal.Body>
                     <div className="modal-form">
                         <input
-
                             onChange={(e) => valueHandler(e)}
                             type="text"
                             placeholder="Атыңыз"
@@ -65,8 +64,6 @@ function ModalWindow2() {
                             name="phone"
                             mask="+996\(999) 999-9999\"
                             placeholder="+996 999 999 999"/>
-
-
                         <select className="modal-input" name="select" onChange={(e) => valueHandler(e)}>
                             <option className="form__el" selected value="javascript">JavaScript Full-Stack разработка
                             </option>
@@ -75,13 +72,10 @@ function ModalWindow2() {
                             <option className="form__el" value="webmaster">Веб-Мастер</option>
                             <option className="form__el" value="ux/ui+front-end">Front-End + UX/UI Дизайн</option>
                         </select>
-
-                        <button onClick={ click } className="modal-btn">Жөнөтүү</button>
-
+                        <button onClick={click} className="modal-btn">Жөнөтүү</button>
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
-
                 </Modal.Footer>
             </Modal>
         </div>

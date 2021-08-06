@@ -9,7 +9,6 @@ router.get('/', async (req, res) => {
         return res.status(401).send(e)
     }
 })
-
 router.post('/', async (req, res) => {
     try {
         const token = "1793401295:AAHX-iAa69_j1RG9caGIpSwkdb8H5JKtj6M";
@@ -20,7 +19,6 @@ router.post('/', async (req, res) => {
             `<b>Phone: <i>${req.body.phone}</i></b>`,
             `<b>Select: <i>${req.body.select}</i></b>`,
         ];
-
         let msg = "";
         newZapis.forEach((i) => {
             msg += i+"\n"
